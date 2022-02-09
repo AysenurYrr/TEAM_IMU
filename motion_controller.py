@@ -66,7 +66,7 @@ class TurtleBot():
         vel_msg.linear.x=0.0
         self.velocity_publisher.publish(vel_msg)
         print("Hedefe varildi !")
-        print("Turtle icin yeni konum x=",self.guncel_konum_x,         "y=",self.guncel_konum_y)
+        print("Turtle icin yeni konum x=",self.guncel_konum_x,"         y=",self.guncel_konum_y)
 
 try:
     x=TurtleBot()
